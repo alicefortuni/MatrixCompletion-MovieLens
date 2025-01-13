@@ -4,9 +4,9 @@ This repository contains the implementation, analysis, and results of Matrix Com
 
 ## Repository Structure
 
-- **`dataset/`**: Contains the MovieLens dataset used in the experiments. The dataset has been pre-processed to reduce its size for computational efficiency.
-- **`documentation/`**: Includes the report (`tesina`) describing the problem, methods, and experimental results in detail.
-- **`figures/`**: Contains all the figures and visualizations referenced in the report.
+- **`dataset/`**: contains the MovieLens dataset used in the experiments. The dataset has been pre-processed to reduce its size for computational efficiency;
+- **`doc/`**: includes the report (`tesina`) describing the problem, methods, and experimental results in detail;
+- **`figures/`**: contains all the figures and visualizations referenced in the report.
 
 ## Project Overview
 
