@@ -3,7 +3,7 @@ function [X, timing] = nuclear_norm_minimization(M)
     omega = find(M);
 
     tic; 
-    cvx_begin quiet %non stampa valori intermedi
+    cvx_begin quiet
         variable X(n_users, n_movies)
         minimize(norm_nuc(X))
         subject to

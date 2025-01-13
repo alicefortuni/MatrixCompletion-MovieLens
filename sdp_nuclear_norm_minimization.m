@@ -9,7 +9,6 @@ function [X, timing] = sdp_nuclear_norm_minimization(M)
 
         minimize(trace(W1) + trace(W2))
 
-        % Vincoli
         subject to  
             X(omega) == M(omega)
             [W1, X; X', W2] >= 0;
