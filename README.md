@@ -1,0 +1,23 @@
+# Matrix Completion on MovieLens Dataset
+
+This repository contains the implementation, analysis, and results of Matrix Completion algorithms applied to the MovieLens dataset as part of the **Signal Processing and Optimization for Big Data** course.
+
+## Repository Structure
+
+- **`dataset/`**: contains the MovieLens dataset used in the experiments. The dataset has been pre-processed to reduce its size for computational efficiency;
+- **`doc/`**: includes the report describing the problem, methods, and experimental results in detail;
+- **`figures/`**: contains all the figures and visualizations referenced in the report.
+
+## Project Overview
+
+The project focuses on solving the **Matrix Completion** problem in the context of recommender systems. The MovieLens dataset is employed to evaluate and compare various algorithms. Key techniques explored include:
+
+1. **Nuclear Norm Minimization**
+2. **Singular Value Thresholding (SVT)**
+3. **Matrix Factorization (Explicit and Implicit Feedback)**
+
+### Results
+
+- Performance is evaluated using metrics like the Normalized Mean Squared Error (NMSE) and computational efficiency.
+- Key findings and visual comparisons are documented in the report located in the `doc/` folder.
+
