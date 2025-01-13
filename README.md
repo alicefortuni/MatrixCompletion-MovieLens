@@ -5,7 +5,7 @@ This repository contains the implementation, analysis, and results of Matrix Com
 ## Repository Structure
 
 - **`dataset/`**: contains the MovieLens dataset used in the experiments. The dataset has been pre-processed to reduce its size for computational efficiency;
-- **`doc/`**: includes the report (`tesina`) describing the problem, methods, and experimental results in detail;
+- **`doc/`**: includes the report describing the problem, methods, and experimental results in detail;
 - **`figures/`**: contains all the figures and visualizations referenced in the report.
 
 ## Project Overview
@@ -19,5 +19,5 @@ The project focuses on solving the **Matrix Completion** problem in the context 
 ### Results
 
 - Performance is evaluated using metrics like the Normalized Mean Squared Error (NMSE) and computational efficiency.
-- Key findings and visual comparisons are documented in the report located in the `documentation/` folder.
+- Key findings and visual comparisons are documented in the report located in the `doc/` folder.
 
